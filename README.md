@@ -29,3 +29,15 @@ Grocery Lists, todo lists, or possibly even tasks tied to an event.
 ## Why Is It Name Kevin?
 
 Kevin
+
+
+## Developer Setup
+
+### Docker
+
+To run the program in docker just build the image locally and expose port 5000
+
+```
+docker build .
+docker run -p 5000:5000 $image_id_from_previous_step
+```
